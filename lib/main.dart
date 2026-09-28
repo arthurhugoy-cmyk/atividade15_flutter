@@ -51,9 +51,9 @@ double meses = 0;
 
   // Função chamada ao pressionar o botão 'Somar'
   void somar() {
-    double juros = pow(Valorinicial, 3);
-    double montante = Valorinicial * (1 + juros )^meses;
-    double investido = Valorinicial + (juros * meses);
+    double juros = pow(valorinicial, 3);
+    double montante = valorinicial * (1 + juros )^meses;
+    double investido = valorinicial + (juros * meses);
 
     setState(() {
       total = n1 + n2;
